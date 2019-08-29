@@ -5,6 +5,14 @@ package com.aoyagi.kt
 fun main(args: Array<String>) {
     initStationList()
     printStationList()
+
+    insertStationList(5, "品川", 2)
+    printStationList()
+
+    deleteStationList(5, 2)
+    printStationList()
+
+
 }
 
 data class StationList(var name: String, var next: Int)
@@ -26,9 +34,25 @@ fun initStationList(): Unit {
     list[4]?.name = "新横浜"
     list[5]?.next = 1
 
-
 }
 
 fun printStationList(): Unit {
 
+    var idx :Int = 2
+    while (idx !=  -1) {
+        print("[${list[idx].name}]->")
+        idx = list[idx].next
+    }
+}
+
+fun insertStationList(insldx: Int, insName: String, prevldx: Int): Unit {
+
+    list[insldx].name = insName
+    list[insldx].next = list[prevldx].next
+    list[prevldx].next = insIdx
+}
+
+fun deleteStationList(delIdx: Int, prevIdx: Int): Unit {
+
+    list[prevIdx].next = list[delIdx].next
 }
