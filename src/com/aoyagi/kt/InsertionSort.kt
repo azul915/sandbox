@@ -1,7 +1,7 @@
 package com.aoyagi.kt
 
 fun main(args: Array<String>) {
-    val a: Array<Int> = arrayOf(90, 34, 78, 12, 56)
+    val a = intArrayOf(39, 34, 78, 12, 56)
 
     for (ins in 1 until a.size) {
         val tmp = a[ins]
