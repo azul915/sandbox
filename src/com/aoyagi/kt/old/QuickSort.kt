@@ -1,4 +1,4 @@
-package com.aoyagi.kt
+package com.aoyagi.kt.old
 
 fun divideArray(a: IntArray, head: Int, tail: Int): Int {
 

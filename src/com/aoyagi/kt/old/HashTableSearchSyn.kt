@@ -1,4 +1,4 @@
-package com.aoyagi.kt
+package com.aoyagi.kt.old
 
 import java.util.Scanner
 

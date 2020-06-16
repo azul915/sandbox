@@ -1,4 +1,4 @@
-package com.aoyagi.kt
+package com.aoyagi.kt.old
 
 data class StationList(var name: String, var next: Int)
 

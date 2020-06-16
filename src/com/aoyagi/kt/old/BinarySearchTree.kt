@@ -1,4 +1,4 @@
-package com.aoyagi.kt
+package com.aoyagi.kt.old
 
 data class BST(var data: Int, var left: Int, var right: Int)
 
@@ -12,7 +12,7 @@ var newIdx = 0
 
 fun main(args: Array<String>) {
 
-    for (i in tree.indices) tree[i] = BST(0,0,0)
+    for (i in tree.indices) tree[i] = BST(0, 0, 0)
 
     addBST(4)
     addBST(6)

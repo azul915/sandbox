@@ -1,4 +1,4 @@
-package com.aoyagi.kt
+package com.aoyagi.kt.old
 
 fun main(args: Array<String>) {
     val a = intArrayOf(39, 34, 78, 12, 56)
