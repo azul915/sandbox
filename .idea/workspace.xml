@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7faeeeb-5a81-4370-b74f-68d85abb12ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/algorithm/Euclid.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/algorithm/sumOfArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/old/FibonacciRecDP.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sandbox/META-INF/sandbox.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sandbox/META-INF/sandbox.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sandbox/com/aoyagi/kt/InsertionSortKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sandbox/com/aoyagi/kt/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/BinarySearchTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/old/BinarySearchTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/FibonacciDP.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/FibonacciRec.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/HashTableSearchSyn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/old/HashTableSearchSyn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/InsertionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/old/InsertionSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/old/LinkedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/old/QuickSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sandbox/com/aoyagi/kt/algorithm/SumOfArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sandbox/com/aoyagi/kt/algorithm/SumOfArrayKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aoyagi/kt/algorithm/SequentialSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aoyagi/kt/algorithm/SequentialSearch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +42,20 @@
       <recent name="$PROJECT_DIR$/src/com/aoyagi/kt/old" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SumOfArrayKt">
+  <component name="RunManager" selected="Kotlin.BinarySearchKt">
+    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="sandbox" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.aoyagi.kt.algorithm.BinarySearchKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EuclidKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="sandbox" />
       <option name="VM_PARAMETERS" />
@@ -64,19 +64,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.aoyagi.kt.algorithm.EuclidKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciDPKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="sandbox" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciDPKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SequentialSearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="sandbox" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.aoyagi.kt.algorithm.SequentialSearchKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumOfArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="sandbox" />
       <option name="VM_PARAMETERS" />
@@ -108,33 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.aoyagi.kt.FibonacciRecKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="sandbox" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.aoyagi.kt.FibonacciRecKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.com.aoyagi.kt.FibonacciRecKt" />
-      <item itemvalue="Kotlin.FibonacciDPKt" />
       <item itemvalue="Kotlin.com.aoyagi.kt.FibonacciRecDPKt" />
       <item itemvalue="Kotlin.EuclidKt" />
       <item itemvalue="Kotlin.SumOfArrayKt" />
+      <item itemvalue="Kotlin.SequentialSearchKt" />
+      <item itemvalue="Kotlin.BinarySearchKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BinarySearchKt" />
+        <item itemvalue="Kotlin.SequentialSearchKt" />
         <item itemvalue="Kotlin.SumOfArrayKt" />
         <item itemvalue="Kotlin.EuclidKt" />
         <item itemvalue="Kotlin.com.aoyagi.kt.FibonacciRecDPKt" />
-        <item itemvalue="Kotlin.FibonacciDPKt" />
-        <item itemvalue="Kotlin.com.aoyagi.kt.FibonacciRecKt" />
       </list>
     </recent_temporary>
   </component>
@@ -164,26 +151,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1266" height="126" key="GridCell.Tab.0.bottom" timestamp="1592241465929">
+    <state x="253" y="-754" width="1108" height="613" key="DiffContextDialog" timestamp="1592324333411">
       <screen x="-90" y="-877" width="1600" height="877" />
     </state>
-    <state width="1266" height="126" key="GridCell.Tab.0.bottom/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592241465929" />
-    <state width="1266" height="126" key="GridCell.Tab.0.bottom/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1592238334253" />
-    <state width="1266" height="126" key="GridCell.Tab.0.center" timestamp="1592241465927">
-      <screen x="-90" y="-877" width="1600" height="877" />
+    <state x="253" y="-754" width="1108" height="613" key="DiffContextDialog/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592324333411" />
+    <state width="1266" height="126" key="GridCell.Tab.0.bottom" timestamp="1593094826019">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1266" height="126" key="GridCell.Tab.0.center/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592241465927" />
-    <state width="1266" height="126" key="GridCell.Tab.0.center/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1592238334251" />
-    <state width="1266" height="126" key="GridCell.Tab.0.left" timestamp="1592241465926">
-      <screen x="-90" y="-877" width="1600" height="877" />
+    <state width="1266" height="126" key="GridCell.Tab.0.bottom/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592323652316" />
+    <state width="1266" height="126" key="GridCell.Tab.0.bottom/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094826019" />
+    <state width="1266" height="126" key="GridCell.Tab.0.center" timestamp="1593094826018">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1266" height="126" key="GridCell.Tab.0.left/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592241465926" />
-    <state width="1266" height="126" key="GridCell.Tab.0.left/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1592238334250" />
-    <state width="1266" height="126" key="GridCell.Tab.0.right" timestamp="1592241465928">
-      <screen x="-90" y="-877" width="1600" height="877" />
+    <state width="1266" height="126" key="GridCell.Tab.0.center/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592323652315" />
+    <state width="1266" height="126" key="GridCell.Tab.0.center/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094826018" />
+    <state width="1266" height="126" key="GridCell.Tab.0.left" timestamp="1593094826017">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1266" height="126" key="GridCell.Tab.0.right/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592241465928" />
-    <state width="1266" height="126" key="GridCell.Tab.0.right/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1592238334252" />
+    <state width="1266" height="126" key="GridCell.Tab.0.left/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592323652314" />
+    <state width="1266" height="126" key="GridCell.Tab.0.left/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094826017" />
+    <state width="1266" height="126" key="GridCell.Tab.0.right" timestamp="1593094826018">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1266" height="126" key="GridCell.Tab.0.right/-90.-877.1600.877/0.23.1440.877@-90.-877.1600.877" timestamp="1592323652316" />
+    <state width="1266" height="126" key="GridCell.Tab.0.right/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094826018" />
+    <state width="1266" height="259" key="GridCell.Tab.1.bottom" timestamp="1593094770024">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1266" height="259" key="GridCell.Tab.1.bottom/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094770024" />
+    <state width="1266" height="259" key="GridCell.Tab.1.center" timestamp="1593094770022">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1266" height="259" key="GridCell.Tab.1.center/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094770022" />
+    <state width="1266" height="259" key="GridCell.Tab.1.left" timestamp="1593094770021">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1266" height="259" key="GridCell.Tab.1.left/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094770021" />
+    <state width="1266" height="259" key="GridCell.Tab.1.right" timestamp="1593094770023">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1266" height="259" key="GridCell.Tab.1.right/-90.-877.1600.877/0.23.1440.877@0.23.1440.877" timestamp="1593094770023" />
     <state x="242" y="63" key="SettingsEditor" timestamp="1592314667284">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
